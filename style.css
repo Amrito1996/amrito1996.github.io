@@ -112,6 +112,23 @@ button:hover:after {
 	transition: .7s;
 }
 
+button.av_link_new {
+	border: 1px solid #00ff00;
+}
+
+button.av_link_new * {
+	color: #ffffff;
+}
+
+button.av_link_new::after {
+	top: 90px;
+	left: 30px;
+}
+
+button.av_link_new:hover {
+	background: #00ff00;
+}
+
 button.av_link {
 	border: 1px solid #ff0000;
 }
